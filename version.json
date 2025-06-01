@@ -1,0 +1,27 @@
+{
+  "id": "midgard-mc",
+  "releaseTime": "2025-05-29T00:00:00+00:00",
+  "type": "release",
+  "inheritsFrom": "1.19.2",
+  "mainClass": "net.fabricmc.loader.impl.launch.knot.KnotClient",
+  "arguments": {
+    "game": [],
+    "jvm": []
+  },
+  "libraries": [
+    {
+      "name": "net.fabricmc:fabric-loader:0.14.16",
+      "url": "https://maven.fabricmc.net/"
+    }
+  ],
+  "files": [
+    {
+      "path": "mods",
+      "url": "https://sirvagabundo.github.io/Midgard-MC/mods.zip"
+    },
+    {
+      "path": "config",
+      "url": "https://sirvagabundo.github.io/Midgard-MC/config.zip"
+    }
+  ]
+}
